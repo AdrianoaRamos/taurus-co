@@ -1,9 +1,7 @@
 {
   "functions": {
     "api/enviar.php": {
-      "runtime": "vercel-php@0.5.2",
-      "memory": 3008,
-      "maxDuration": 60
+      "runtime": "vercel-php@0.5.2"
     },
     "api/src/Exception.php": {
       "runtime": "vercel-php@0.5.2"
