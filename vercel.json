@@ -13,19 +13,6 @@
       ,
        "api/src/SMTP.php": {
         "runtime": "vercel-php@0.5.2"
-      }
-      ,
-      "api/src/POP3.php": {
-       "runtime": "vercel-php@0.5.2"
-      }
-      ,
-      "api/src/OAuthTokenProvider.php": {
-       "runtime": "vercel-php@0.5.2"
-     }
-     ,
-      "api/src/OAuth.php": {
-       "runtime": "vercel-php@0.5.2"
-     }
-     
+       }
     }
 }
