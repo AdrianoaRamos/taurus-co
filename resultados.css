@@ -1,0 +1,72 @@
+.resultados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.txt-resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+.visao{
+    width: 90%;
+}
+
+
+.insight{
+    text-align: center;
+}
+
+
+.container-contas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.insight p{
+    color: #c3c3c3;
+}
+
+.txt-contas{
+    text-align: right;
+}
+
+
+.insight .porcentagem{
+    color: #1e879a;
+}
+
+.porcentagem{
+    color: #1e879a;
+    font-weight: bold;
+}
+
+.botoes-visao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-visao{
+    padding: 5px;
+    background-color: #1e879a;
+    border-radius: 50%;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+
+
+.button-visao:hover{
+    border: 2px solid #FFFFFF;
+}

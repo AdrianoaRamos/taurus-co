@@ -1,0 +1,109 @@
+.servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.textos-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.servicos-h1{
+    font-size: 3rem;
+}
+
+.servicos-p{
+    font-size: 2em;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+}
+
+.card{
+    height: 100%;
+    width: 24%;
+}
+
+.card-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-image: url(/img/social-media.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-gerenciamento{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-image: url(/img/gestao.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-trafego{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-image: url(/img/trafego.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-marketing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-image: url(/img/marketing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card-h3{
+    padding-top:20px ;
+    text-align: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+
+.textocard{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 1.1em;
+    padding: 0 8px 0 8px;
+    color: transparent;
+    text-align: justify;
+}
+
+.card:hover .textocard{
+    color: #FFFFFF;
+    background-color: #1e879ae1;
+    cursor: default;
+    transition: ease-in .2s;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}

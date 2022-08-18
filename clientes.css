@@ -1,0 +1,73 @@
+.clientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.textos-clientes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+
+.clientes-h1{
+    font-size: 3.5rem;
+}
+
+.clientes-p{
+    font-size: 2em;
+}
+
+.logos-clientes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.img-logo{
+    border-radius: 50%;
+    width: 110px;
+}
+
+.cliente-depointe{
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.texto-depoimento{
+    font-family: 'Josefin Sans', Helvetica,Arial,Lucida,sans-serif;
+    font-size: 1.5em;
+    width: 35%;
+    font-weight: 300;
+}
+
+.foto-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depointe{
+    border-radius: 50%;
+    width: 150px;
+}
+
+
+.dados-depoimento p{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.button-cliente{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

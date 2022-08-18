@@ -1,0 +1,124 @@
+.portfolio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.textos-portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.container-portfolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cards-portfolio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+}
+
+.card-portfolio{
+    height: 100%;
+    width: 300px;
+}
+
+.card-bellas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    background-image: url(/img/logo-bellas.jpg);
+    background-color: #0C0D5F;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.card-bellas h3{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    background-color: #ffffff84;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+
+.card-maria{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    background-image: url(/img/logo-maria.jpg);
+    background-color: #c36333;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.card-maria h3{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    background-color: #ffffff84;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.card-sacolao{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    background-image: url(/img/sempre-verde.jpg);
+    background-color: #000000;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.card-sacolao h3{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    background-color: #ffffff84;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.link-portfolio{
+    text-align: center;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}

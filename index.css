@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu-completo{
+    background-color: #1e879ac0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.link-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.link{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link:hover{
+    border-bottom: 5px solid #1e879a;
+}
+
+.logo-nav{
+    width: 5%;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+}
+

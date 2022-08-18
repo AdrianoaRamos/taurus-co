@@ -1,0 +1,189 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.voltar-inicio{
+    text-decoration: none;
+    font-size: 2em;
+    color: #FFFFFF;
+    background-color: #1e879adb;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    box-shadow: 2px 3px 10px #333;
+}
+
+.link-menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foot{
+    display: flex;
+}
+
+@media screen and (max-width:825px){
+
+    .taru{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 50% !important;
+    }
+
+    .quem-somos{
+        width: 100%;
+    }
+
+    .logo-quem-somos{
+        width: 50vw !important;
+    }
+
+    .link-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .texto-img-geral{
+        flex-direction: column;
+    }
+
+    .texto-img-geral p{
+        width: 95%;
+    }
+    
+    .texto-img-geral .container-txt{
+        width: 100vw;
+    }
+
+    .container-txt-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+
+    .cards{
+        height: auto !important;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .formulario{
+        width: 80vw;
+    }
+
+
+    .logo-taurus img{
+        width: 60vw !important;
+    }
+
+    .logodados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .card{
+        height: 25% !important;
+        width: 80% !important;
+    }
+
+
+    .cards-portfolio{
+        height: 50vh !important;
+    }
+
+    .portfolio{
+        justify-content: flex-start !important;
+        height: 100vh !important;
+    }
+
+    .container-portfolio{
+        height: 70%;
+        align-items: flex-start !important;
+    }
+
+    .textos-portfolio{
+        margin-bottom: 40px !important;
+    }
+
+    .resultados{
+        height: 100vh !important;
+    }
+}
+
+@media screen and (max-width:412px){
+
+    .front{
+        height: 100vh !important;
+    }
+
+    .servicos{
+        height: 145vh !important;
+    }
+
+    .cliente-depointe{
+        flex-direction: column !important;
+    }
+    .texto-depoimento{
+        width: 100% !important;
+    }
+
+    .portfolio{
+        height: 170vh !important;
+    }
+
+    .cards-portfolio{
+        flex-wrap: wrap;
+        height: 50vh !important;
+        width: 70vw !important;
+    }
+
+    .logodados .dados{
+        flex-direction: column !important;
+    }
+
+    .clientes{
+        height: 130vh !important;
+    }
+
+    h3, h2, h1{
+        text-align: center;
+    }
+
+    .servicos-p{
+        text-align: center;
+    }
+
+    .quem-somos .textos{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:375px){
+
+    .servicos{
+        height: 225vh !important;
+    }
+
+    .clientes{
+        height: 140vh !important;
+    }
+
+    .quem-somos{
+        height: 110vh !important;
+    }
+
+    .portfolio{
+        height: 170vh !important;
+    }
+
+}
