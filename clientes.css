@@ -28,6 +28,7 @@
     align-items: row;
     flex-wrap: wrap;
     align-items: center;
+    height: 100vh;
 }
 
 .img-logo{
@@ -70,4 +71,5 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    width: 25%;
 }
