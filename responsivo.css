@@ -92,7 +92,7 @@ html{
 
 
     .card{
-        height: 25% !important;
+        height: 33% !important;
         width: 80% !important;
     }
 
@@ -118,6 +118,22 @@ html{
     .resultados{
         height: 100vh !important;
     }
+
+    .textocard{
+        background-color: transparent;
+        color: #FFFFFF !important;
+        text-align: left !important;
+        font-size: 1em !important;
+    }
+
+    .card:hover .textocard{
+        background-color: transparent !important;
+    }
+
+    .button-cliente{
+        width: auto !important;
+    }
+    
 }
 
 @media screen and (max-width:412px){
@@ -127,7 +143,8 @@ html{
     }
 
     .servicos{
-        height: 145vh !important;
+        height: 115vh !important;
+        justify-content: flex-start !important;
     }
 
     .cliente-depointe{
@@ -171,7 +188,7 @@ html{
 @media screen and (max-width:375px){
 
     .servicos{
-        height: 225vh !important;
+        height: 150vh !important;
     }
 
     .clientes{
