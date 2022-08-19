@@ -188,7 +188,7 @@ html{
 @media screen and (max-width:375px){
 
     .servicos{
-        height: 150vh !important;
+        height: 180vh !important;
     }
 
     .clientes{
