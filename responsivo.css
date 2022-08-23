@@ -273,3 +273,9 @@ html{
         height: 120vh !important;
     }
 }
+
+@media screen and (max-height:528px){
+    .servicos{
+        height: 220vh !important;
+    }
+}
