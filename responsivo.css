@@ -262,6 +262,7 @@ html{
 
     .portfolio{
         height: 180vh !important;
+        justify-content: center !important;
     }
 }
 
