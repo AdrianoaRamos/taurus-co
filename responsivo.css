@@ -278,4 +278,7 @@ html{
     .servicos{
         height: 220vh !important;
     }
+    .contato-info{
+        height: 130vh !important;
+    }
 }
