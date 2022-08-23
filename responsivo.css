@@ -136,7 +136,7 @@ html{
     
 }
 
-@media screen and (max-width:412px){
+@media screen and (max-width:720px){
 
     .front{
         height: 100vh !important;
@@ -187,8 +187,28 @@ html{
 
 @media screen and (max-width:375px){
 
+    .quem-somos h1{
+        font-size: 2em !important;
+    }
+
+    .servicos-h1{
+        font-size: 2em !important;
+    }
+
+    .servicos-p{
+        font-size: 1.3em !important;
+    }
+
+    .clientes-h1{
+        font-size: 2em !important;
+    }
+
+    .clientes-p{
+        font-size: 1.3em !important;
+    }
+
     .servicos{
-        height: 180vh !important;
+        height: 150vh !important;
     }
 
     .clientes{
@@ -203,4 +223,53 @@ html{
         height: 170vh !important;
     }
 
+    .card-portfolio h3{
+        font-size: 1rem !important;
+    }
+
+    .clientes-p{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:286px){
+
+    .servicos{
+        height: 200vh !important;
+    }
+
+    .container-txt p{
+        font-size: 1em !important;
+    }
+
+    .txt-resultado h1{
+        font-size: 1em !important;
+    }
+
+    .contato-info{
+        height: 110vh !important;
+    }
+
+    label{
+        text-align: left !important;
+    }
+
+    .dados-contato{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio{
+        height: 180vh !important;
+    }
+}
+
+@media screen and (max-width:280px){
+    .servicos{
+        height: 190vh !important;
+    }
+    .contato-info{
+        height: 120vh !important;
+    }
 }
