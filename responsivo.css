@@ -513,15 +513,6 @@ html{
     }
 }
 
-@media screen and (max-height:528px){
-    .servicos{
-        height: 220vh !important;
-    }
-
-    .contato-info{
-        height: 130vh !important;
-    }
-}
     
     @media screen and (max-width:257px){
     .servicos{
