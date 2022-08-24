@@ -501,7 +501,6 @@ html{
 
     .portfolio{
         height: 180vh !important;
-        justify-content: center !important;
     }
 }
 
@@ -521,5 +520,11 @@ html{
 
     .contato-info{
         height: 130vh !important;
+    }
+}
+    
+    @media screen and (max-width:257px){
+    .servicos{
+        height: 220vh !important;
     }
 }
