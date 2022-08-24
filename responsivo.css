@@ -513,9 +513,9 @@ html{
     }
 }
 
-@media screen and (max-width:257px){
+@media screen and (max-width:253px){
     .servicos{
-        height: 250vh !important;
+        height: 280vh !important;
     }
     .clientes{
         height: 160vh !important;
