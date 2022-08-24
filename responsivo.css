@@ -527,4 +527,8 @@ html{
     .servicos{
         height: 220vh !important;
     }
+    .clientes{
+        height: 160 vh !important;
+    }
 }
+    
