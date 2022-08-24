@@ -520,5 +520,8 @@ html{
     .clientes{
         height: 160vh !important;
     }
+    .portfolio{
+        height: 200vh !important;
+    }
 }
     
