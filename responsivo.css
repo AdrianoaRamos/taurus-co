@@ -513,13 +513,12 @@ html{
     }
 }
 
-    
-    @media screen and (max-width:257px){
+@media screen and (max-width:257px){
     .servicos{
         height: 250vh !important;
     }
     .clientes{
-        height: 160 vh !important;
+        height: 160vh !important;
     }
 }
     
