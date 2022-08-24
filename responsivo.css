@@ -281,6 +281,11 @@ hthtml{
         height: 160vh !important;
     }
 
+
+    .cards-portfolio{
+        height: 40vh !important;
+    }    
+    
     .card-portfolio{
         height: 100% !important;
     width: auto !important;
