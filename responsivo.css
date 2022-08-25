@@ -54,6 +54,8 @@ html{
     
     .texto-img-geral .container-txt{
         width: 100vw;
+        text-align: left !important;
+        margin-left: 10px !important;
     }
 
     .container-txt-img{
@@ -241,8 +243,7 @@ html{
 
     .container-txt p{
         font-size: 1em !important;
-        text-align: left !important;
-        margin-left: 10px !important;
+
     }
 
     .txt-resultado h1{
