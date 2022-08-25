@@ -1,4 +1,4 @@
-hthtml{
+html{
     scroll-behavior: smooth;
 }
 
@@ -241,6 +241,8 @@ hthtml{
 
     .container-txt p{
         font-size: 1em !important;
+        text-align: left !important;
+        margin-left: 10px !important;
     }
 
     .txt-resultado h1{
